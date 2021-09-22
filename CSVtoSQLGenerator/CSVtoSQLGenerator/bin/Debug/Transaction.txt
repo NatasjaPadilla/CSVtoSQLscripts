@@ -1,0 +1,19 @@
+insert Transaction
+values (01233224,'19 June 2021',500,1000,500,'Pilot Black White Board Marker',100,2,200)
+insert Transaction
+values (01233224,'19 June 2021',500,1000,500,'Pilot Blue White Board Marker',100,1,100)
+insert Transaction
+values (01233224,'19 June 2021',500,1000,500,'Pilot Red White Board Marker',100,1,100)
+insert Transaction
+values (01233224,'19 June 2021',500,1000,500,'White Board Eraser',50,2,100)
+insert Transaction
+values (543566,'19 June 2021',2050,2050,0,'Pilot Black Pen',20,5,100)
+insert Transaction
+values (543566,'19 June 2021',2050,2050,0,'#2 Pencil (Box)',100,3,300)
+insert Transaction
+values (543566,'19 June 2021',2050,2050,0,'1 Pack Yellow Pad Paper',150,1,150)
+insert Transaction
+values (543566,'19 June 2021',2050,2050,0,'Bond Paper (Rim)',300,5,1500)
+insert Transaction
+values (23452356,'19 June 2021',20,100,80,'Spiral Notebook',20,1,20)
+
