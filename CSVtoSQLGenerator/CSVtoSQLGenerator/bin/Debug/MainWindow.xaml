@@ -1,0 +1,21 @@
+﻿<Window x:Class="CSVtoSQLGenerator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CSVtoSQLGenerator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="414.447">
+    <Grid x:Name="DisplayGrid">
+        <Button x:Name="btnCSVSelector" Content="Select CSV" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="btnCSVSelector_Click"/>
+        <TextBox x:Name="tbDisplayPath" HorizontalAlignment="Left" Height="23" Margin="90,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" IsEnabled="False"/>
+        <Button x:Name="btnSelectionLock" Content="Open File" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="btnSelectionLock_Click"/>
+        <Label x:Name="lblTableName" Content="Table Name : " HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblColumnCount" Content="Column Count :" HorizontalAlignment="Left" Margin="10,97,0,0" VerticalAlignment="Top"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="10,128,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkbDiagnostic" Content="Add Diagnostic Scripts" HorizontalAlignment="Left" Margin="25,128,0,0" VerticalAlignment="Top" ToolTip="Adds Diagnostic scripts before and after the insert statements." Checked="chkbDiagnostic_Checked"/>
+        <Label Content="Column Headers : " HorizontalAlignment="Left" Margin="10,148,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnGenerateScript" Content="Generate" HorizontalAlignment="Left" Margin="311,38,0,0" VerticalAlignment="Top" Width="75" Height="23" IsEnabled="False" Click="btnGenerateScript_Click"/>
+
+    </Grid>
+</Window>
